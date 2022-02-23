@@ -6,10 +6,10 @@ min_version = "0.11.0"
 demo = "https://divpattern.com"
 
 [extra]
-hyde_sticky = true
-hyde_reverse = false
-hyde_theme = ""
-hyde_links = [
+divpattern_sticky = true
+divpattern_reverse = false
+divpattern_theme = ""
+divpattern_links = [
 ]
 
 [author]
@@ -19,4 +19,4 @@ homepage = "https://bmh.io"
 [original]
 author =  "mdo (Ported to zola by Vincent Prouillet)"
 homepage = "http://markdotto.com/"
-repo = "https://www.github.com/mdo/hyde"
+repo = "https://www.github.com/mdo/divpattern"

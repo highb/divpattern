@@ -1,13 +1,13 @@
-base_url = "https://zola-hyde.netlify.com"
+base_url = "https://zola-divpattern.netlify.com"
 compile_sass = true
-title = "Hyde theme"
+title = "divpattern theme"
 description = "A clean blogging theme"
 generate_feed = true
 
 [extra]
-hyde_sticky = true
-hyde_reverse = false
-hyde_theme = ""
-hyde_links = [
+divpattern_sticky = true
+divpattern_reverse = false
+divpattern_theme = ""
+divpattern_links = [
     {url = "https://google.com", name = "About"},
 ]

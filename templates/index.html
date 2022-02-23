@@ -13,7 +13,7 @@
       <!-- CSS -->
       <link rel="stylesheet" href="{{ get_url(path="print.css", trailing_slash=false) }}" media="print">
       <link rel="stylesheet" href="{{ get_url(path="poole.css", trailing_slash=false) }}">
-      <link rel="stylesheet" href="{{ get_url(path="hyde.css", trailing_slash=false) }}">
+      <link rel="stylesheet" href="{{ get_url(path="divpattern.css", trailing_slash=false) }}">
       <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
 
       {% if config.generate_feed %}
@@ -24,10 +24,10 @@
       {% endblock extra_head %}
     </head>
 
-    <body class="{{ config.extra.hyde_theme }} {% if config.extra.hyde_reverse %}layout-reverse{% endif %}">
+    <body class="{{ config.extra.divpattern_theme }} {% if config.extra.divpattern_reverse %}layout-reverse{% endif %}">
         {% block sidebar %}
             <div class="sidebar">
-                <div class="container {% if config.extra.hyde_sticky %}sidebar-sticky{% endif %}">
+                <div class="container {% if config.extra.divpattern_sticky %}sidebar-sticky{% endif %}">
                     <div class="sidebar-about">
                         {% block sidebar_about %}
                             <a href="{{ config.base_url }}"><h1>{{ config.title }}</h1></a>
@@ -39,7 +39,7 @@
 
                     <ul class="sidebar-nav">
                         {% block sidebar_nav %}
-                        {% for link in config.extra.hyde_links %}
+                        {% for link in config.extra.divpattern_links %}
                         <li class="sidebar-nav-item"><a href="{{link.url}}">{{link.name}}</a></li>
                         {% endfor %}
                         {% endblock sidebar_nav %}
