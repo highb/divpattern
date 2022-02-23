@@ -1,9 +1,9 @@
-name = "hyde"
-description = "A classic blog theme"
+name = "divpattern"
+description = "A simple blog theme"
 license = "MIT"
-homepage = "https://github.com/getzola/hyde"
+homepage = "https://github.com/highb/divpattern"
 min_version = "0.11.0"
-demo = "https://zola-hyde.netlify.com"
+demo = "https://divpattern.com"
 
 [extra]
 hyde_sticky = true
@@ -13,10 +13,10 @@ hyde_links = [
 ]
 
 [author]
-name = "Vincent Prouillet"
-homepage = "https://www.vincentprouillet.com"
+name = "Brandon High"
+homepage = "https://bmh.io"
 
 [original]
-author =  "mdo"
+author =  "mdo (Ported to zola by Vincent Prouillet)"
 homepage = "http://markdotto.com/"
 repo = "https://www.github.com/mdo/hyde"
