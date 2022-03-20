@@ -18,7 +18,7 @@ First download this theme to your `themes` directory:
 
 ```bash
 cd themes
-git clone https://github.com/getzola/divpattern.git
+git clone https://github.com/highb/divpattern.git
 ```
 and then enable it in your `config.toml`:
 
